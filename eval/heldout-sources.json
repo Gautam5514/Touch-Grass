@@ -1,0 +1,238 @@
+[
+ {
+  "file": "green-leaf-1.jpg",
+  "kind": "correct",
+  "truth": [
+   "green-leaf"
+  ],
+  "title": "File:Lisc lipy.jpg"
+ },
+ {
+  "file": "green-leaf-2.jpg",
+  "kind": "correct",
+  "truth": [
+   "green-leaf"
+  ],
+  "title": "File:Leaf 1 web.jpg"
+ },
+ {
+  "file": "green-leaf-3.jpg",
+  "kind": "correct",
+  "truth": [
+   "green-leaf"
+  ],
+  "title": "File:Taro leaf underside, backlit by sun - edit.jpg"
+ },
+ {
+  "file": "flower-1.jpg",
+  "kind": "correct",
+  "truth": [
+   "flower"
+  ],
+  "title": "File:Wild rose Rosa woodsii closeup.jpg"
+ },
+ {
+  "file": "flower-2.jpg",
+  "kind": "correct",
+  "truth": [
+   "flower"
+  ],
+  "title": "File:Pink Rose Closeup With Black Background.jpg"
+ },
+ {
+  "file": "flower-3.jpg",
+  "kind": "correct",
+  "truth": [
+   "flower"
+  ],
+  "title": "File:Red rose closeup - alekseib Flickr (34992779085).jpg"
+ },
+ {
+  "file": "tree-trunk-1.jpg",
+  "kind": "correct",
+  "truth": [
+   "tree-trunk"
+  ],
+  "title": "File:Part of birch trunk in Norrkila.jpg"
+ },
+ {
+  "file": "tree-trunk-2.jpg",
+  "kind": "correct",
+  "truth": [
+   "tree-trunk"
+  ],
+  "title": "File:Birch trunk with bark in Norrkila.jpg"
+ },
+ {
+  "file": "tree-trunk-3.jpg",
+  "kind": "correct",
+  "truth": [
+   "tree-trunk"
+  ],
+  "title": "File:Birch tree trunk TompsonStreetReservation Massachusetts.jpg"
+ },
+ {
+  "file": "sky-1.jpg",
+  "kind": "correct",
+  "truth": [
+   "sky"
+  ],
+  "title": "File:Clouds in the evening sky in Ljugarn.jpg"
+ },
+ {
+  "file": "sky-2.jpg",
+  "kind": "correct",
+  "truth": [
+   "sky"
+  ],
+  "title": "File:Large cloud over Mexican landscape.jpg"
+ },
+ {
+  "file": "sky-3.jpg",
+  "kind": "correct",
+  "truth": [
+   "sky"
+  ],
+  "title": "File:Li Phi falls at sunrise with white and grey clouds in Don Khon Laos.jpg"
+ },
+ {
+  "file": "grass-1.jpg",
+  "kind": "correct",
+  "truth": [
+   "grass"
+  ],
+  "title": "File:Fresh Grass (178908533).jpeg"
+ },
+ {
+  "file": "grass-2.jpg",
+  "kind": "correct",
+  "truth": [
+   "grass"
+  ],
+  "title": "File:Lawn grass2.jpg"
+ },
+ {
+  "file": "grass-3.jpg",
+  "kind": "correct",
+  "truth": [
+   "grass"
+  ],
+  "title": "File:Mowed fresh green seamless healthy lawn grass turf texture.jpg"
+ },
+ {
+  "file": "rock-1.jpg",
+  "kind": "correct",
+  "truth": [
+   "rock"
+  ],
+  "title": "File:Granite closeup.jpg"
+ },
+ {
+  "file": "rock-2.jpg",
+  "kind": "correct",
+  "truth": [
+   "rock"
+  ],
+  "title": "File:Rock outcrop on Cox Tor.jpg"
+ },
+ {
+  "file": "rock-3.jpg",
+  "kind": "correct",
+  "truth": [
+   "rock"
+  ],
+  "title": "File:Glen Rock (boulder).jpg"
+ },
+ {
+  "file": "rock-4.jpg",
+  "kind": "correct",
+  "truth": [
+   "rock"
+  ],
+  "title": "File:Large boulder near Silver Hollow - geograph.org.uk - 663287.jpg"
+ },
+ {
+  "file": "fallen-leaf-1.jpg",
+  "kind": "correct",
+  "truth": [
+   "fallen-leaf"
+  ],
+  "title": "File:Yellow Leaf on the Ground (48824653717).jpg"
+ },
+ {
+  "file": "fallen-leaf-2.jpg",
+  "kind": "correct",
+  "truth": [
+   "fallen-leaf"
+  ],
+  "title": "File:Yellow Leaf (2919828393).jpg"
+ },
+ {
+  "file": "fallen-leaf-3.jpg",
+  "kind": "correct",
+  "truth": [
+   "fallen-leaf"
+  ],
+  "title": "File:Leaf, 1.jpg"
+ },
+ {
+  "file": "indoor-1.jpg",
+  "kind": "unrelated",
+  "truth": [],
+  "title": "File:Basildon Park, Dining Room - geograph.org.uk - 3029945.jpg"
+ },
+ {
+  "file": "indoor-2.jpg",
+  "kind": "unrelated",
+  "truth": [],
+  "title": "File:Restaurant room of Amantaka luxury Resort & Hotel in Luang Prabang Laos.jpg"
+ },
+ {
+  "file": "indoor-3.jpg",
+  "kind": "unrelated",
+  "truth": [],
+  "title": "File:Castle Ward Interior - Dining Room - geograph.org.uk - 3968505.jpg"
+ },
+ {
+  "file": "indoor-4.jpg",
+  "kind": "unrelated",
+  "truth": [],
+  "title": "File:Maxima supermarket in Jelgava - the interior 02.jpg"
+ },
+ {
+  "file": "indoor-5.jpg",
+  "kind": "unrelated",
+  "truth": [],
+  "title": "File:HK Wan Chai Road \u4f73\u5bf6\u98df\u54c1\u8d85\u7d1a\u5e02\u5834 Kai Bo Food Supermarket interior September 2016 LG5.jpg"
+ },
+ {
+  "file": "scene-1.jpg",
+  "kind": "multi",
+  "truth": [],
+  "title": "File:LAGUNA MEADOW FROM CHICO RAVINE TRAIL - panoramio.jpg"
+ },
+ {
+  "file": "scene-2.jpg",
+  "kind": "multi",
+  "truth": [],
+  "title": "File:Evan Redman hiking Palisades Trail (2815dc628936478886f9f5c9ce62fd36).JPG"
+ },
+ {
+  "file": "scene-3.jpg",
+  "kind": "multi",
+  "truth": [],
+  "title": "File:East Applegate Ridge Trail Meadow View (40237275790).jpg"
+ },
+ {
+  "file": "scene-4.jpg",
+  "kind": "multi",
+  "truth": [],
+  "title": "File:Ardea cinerea - Grey heron - in a pond of Busan Citizens Park with blue sky in Busan city South Korea.jpg"
+ },
+ {
+  "file": "scene-5.jpg",
+  "kind": "multi",
+  "truth": [],
+  "title": "File:Pinchot Trail meadow.jpg"
+ }
+]

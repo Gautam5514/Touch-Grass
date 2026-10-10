@@ -5,22 +5,44 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "node scripts/serve.mjs out 3000",
+    "lint": "eslint",
+    "prebuild": "node scripts/copy-ort.mjs && node scripts/fetch-model.mjs",
+    "predev": "node scripts/copy-ort.mjs && node scripts/fetch-model.mjs",
+    "postinstall": "node scripts/copy-ort.mjs && node scripts/fetch-model.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build:e2e": "NEXT_PUBLIC_E2E=1 WQ_DIST_DIR=out-e2e next build",
+    "build:all": "npm run build && npm run build:e2e",
+    "test:e2e": "playwright test",
+    "test:e2e:mock": "playwright test --project=mock",
+    "test:e2e:real": "playwright test --project=real",
+    "eval": "tsx scripts/evaluate.mts"
   },
   "dependencies": {
+    "@huggingface/transformers": "^4.3.1",
+    "dexie": "^4.4.6",
+    "dexie-react-hooks": "^4.4.0",
+    "lucide-react": "^1.54.0",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.0",
     "@tailwindcss/turbopack": "^4",
-    "@types/node": "^20",
+    "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "fake-indexeddb": "^6.2.5",
+    "playwright": "^1.64.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.3"
   }
 }

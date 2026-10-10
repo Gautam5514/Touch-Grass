@@ -1,0 +1,48 @@
+# Evaluation photo credits
+
+Photos from Wikimedia Commons, used only to test WildQuest AI. Each keeps its own license (listed below).
+
+- green-leaf-1.jpg: "Raindrops on a green leaf closeup. (49938738006).jpg", Nenad Stojkovic, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Raindrops_on_a_green_leaf_closeup._(49938738006).jpg
+- green-leaf-2.jpg: "Holly leaf closeup.jpg", Terry.grignon, CC0. https://commons.wikimedia.org/wiki/File:Holly_leaf_closeup.jpg
+- green-leaf-3.jpg: "Man holding a green walnut leaf closeup. (51271475636).jpg", Nenad Stojkovic, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Man_holding_a_green_walnut_leaf_closeup._(51271475636).jpg
+- green-leaf-4.jpg: "Macro photography of a leaf - by Giovanni Ussi.jpg", Giovanni Ussi, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Macro_photography_of_a_leaf_-_by_Giovanni_Ussi.jpg
+- flower-1.jpg: "Red Poppy Papaver Flower Closeup 2049px.jpg", Photo by and (c)2008 Derek Ramsey (Ram-Man). Co-attribution must be given to the Chanticleer Garden., CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Red_Poppy_Papaver_Flower_Closeup_2049px.jpg
+- flower-2.jpg: "Closeup of purple cone flower bloom.jpg", Slknight, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Closeup_of_purple_cone_flower_bloom.jpg
+- flower-3.jpg: "Blossom Blue (143871281).jpeg", Night Dew, CC BY 3.0. https://commons.wikimedia.org/wiki/File:Blossom_Blue_(143871281).jpeg
+- flower-4.jpg: "(Passiflora 'Lady Margaret') cultivator Rakhi flower closeup at Nizampet 01.jpg", Adityamadhav83, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:(Passiflora_%27Lady_Margaret%27)_cultivator_Rakhi_flower_closeup_at_Nizampet_01.jpg
+- tree-trunk-1.jpg: "Mossy Tree Bark Texture DTXR-WD-BK-1.jpg", Shadowmeld Photography, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Mossy_Tree_Bark_Texture_DTXR-WD-BK-1.jpg
+- tree-trunk-2.jpg: "Bark of Sapota tree.jpg", Saral Shots, CC0. https://commons.wikimedia.org/wiki/File:Bark_of_Sapota_tree.jpg
+- tree-trunk-3.jpg: "Pine tree bark texture.jpg", Titus Tscharntke, Public domain. https://commons.wikimedia.org/wiki/File:Pine_tree_bark_texture.jpg
+- tree-trunk-4.jpg: "Bark texture wood.jpg", Gregory Schick aka leadgolem, Public domain. https://commons.wikimedia.org/wiki/File:Bark_texture_wood.jpg
+- sky-1.jpg: "Cloudy sky over the field in Russia. img 030.jpg", Dmitry Makeev, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Cloudy_sky_over_the_field_in_Russia._img_030.jpg
+- sky-2.jpg: "Cloudy sky over the field in Russia. img 007.jpg", Dmitry Makeev, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Cloudy_sky_over_the_field_in_Russia._img_007.jpg
+- sky-3.jpg: "Cloudy sky over the field in Russia. img 016.jpg", Dmitry Makeev, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Cloudy_sky_over_the_field_in_Russia._img_016.jpg
+- sky-4.jpg: "Cloudy sky over the field in Russia. img 021.jpg", Dmitry Makeev, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Cloudy_sky_over_the_field_in_Russia._img_021.jpg
+- grass-1.jpg: "Mowed fresh green seamless healthy lawn grass turf texture.jpg", Sisters.seamless, CC0. https://commons.wikimedia.org/wiki/File:Mowed_fresh_green_seamless_healthy_lawn_grass_turf_texture.jpg
+- grass-2.jpg: "Lawn grass.jpg", MichaelPloujnikov, CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Lawn_grass.jpg
+- grass-3.jpg: "HK 香港 中山紀念公園 Sun Yat Sen Memorial Park 草皮 08 Lawn grass May-2012.jpg", Olaongdees, CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:HK_%E9%A6%99%E6%B8%AF_%E4%B8%AD%E5%B1%B1%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92_Sun_Yat_Sen_Memorial_Park_%E8%8D%89%E7%9A%AE_08_Lawn_grass_May-2012.jpg
+- grass-4.jpg: "HK 香港 中山紀念公園 Sun Yat Sen Memorial Park 草皮 03 Lawn grass May-2012.jpg", Olaongdees, CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:HK_%E9%A6%99%E6%B8%AF_%E4%B8%AD%E5%B1%B1%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92_Sun_Yat_Sen_Memorial_Park_%E8%8D%89%E7%9A%AE_03_Lawn_grass_May-2012.jpg
+- rock-1.jpg: "Stone rock closeup.jpg", Titus Tscharntke, Public domain. https://commons.wikimedia.org/wiki/File:Stone_rock_closeup.jpg
+- rock-2.jpg: "Stone rock texture closeup.jpg", Titus Tscharntke, Public domain. https://commons.wikimedia.org/wiki/File:Stone_rock_texture_closeup.jpg
+- rock-3.jpg: "Stone closeup.jpg", Rosendahl, Public domain. https://commons.wikimedia.org/wiki/File:Stone_closeup.jpg
+- rock-4.jpg: "Nether Largie Standing Stones 04.jpg", Postdlf, CC BY-SA 3.0. https://commons.wikimedia.org/wiki/File:Nether_Largie_Standing_Stones_04.jpg
+- fallen-leaf-1.jpg: "Red maple leaf on paper birch.jpg", The Cosmonaut, CC BY-SA 2.5 ca. https://commons.wikimedia.org/wiki/File:Red_maple_leaf_on_paper_birch.jpg
+- fallen-leaf-2.jpg: "Autumn leaf 25.jpg", Gayik, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Autumn_leaf_25.jpg
+- fallen-leaf-3.jpg: "Leaf on the ground.jpg", Teyahjohralle, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Leaf_on_the_ground.jpg
+- fallen-leaf-4.jpg: "Small leaves on ground.jpg", Unknown authorUnknown author, Public domain. https://commons.wikimedia.org/wiki/File:Small_leaves_on_ground.jpg
+- indoor-1.jpg: "Living room in apartment of Condomínio do Edifício Zaher, Le Blond, Rio de Janeiro, Brazil.jpg", Wilfredor, CC0. https://commons.wikimedia.org/wiki/File:Living_room_in_apartment_of_Condom%C3%ADnio_do_Edif%C3%ADcio_Zaher,_Le_Blond,_Rio_de_Janeiro,_Brazil.jpg
+- indoor-2.jpg: "Living Room 1998 NOLA.jpg", Infrogmation of New Orleans, CC BY 2.0. https://commons.wikimedia.org/wiki/File:Living_Room_1998_NOLA.jpg
+- indoor-3.jpg: "Living room in Villa Cavrois en2023 (3).jpg", Pierre André Leclercq, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Living_room_in_Villa_Cavrois_en2023_(3).jpg
+- indoor-4.jpg: "Living Room Sauer Beckmann Farm Texas 2023.jpg", Larry D. Moore, CC BY 4.0. https://commons.wikimedia.org/wiki/File:Living_Room_Sauer_Beckmann_Farm_Texas_2023.jpg
+- indoor-5.jpg: "Nathan Cobb Cottage - Interior 2nd Floor Loft Looking Down to Living Room - photograph ca. 2021.jpg", Happy-J, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Nathan_Cobb_Cottage_-_Interior_2nd_Floor_Loft_Looking_Down_to_Living_Room_-_photograph_ca._2021.jpg
+- street-1.jpg: "Car park and Traffic Street - geograph.org.uk - 8119229.jpg", DS Pugh, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Car_park_and_Traffic_Street_-_geograph.org.uk_-_8119229.jpg
+- street-2.jpg: "2005 car traffic in Taipei 2.jpg", Syced, CC0. https://commons.wikimedia.org/wiki/File:2005_car_traffic_in_Taipei_2.jpg
+- street-3.jpg: "Cars waiting at the traffic lights on James Street, Omagh - geograph.org.uk - 6507360.jpg", Kenneth Allen, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Cars_waiting_at_the_traffic_lights_on_James_Street,_Omagh_-_geograph.org.uk_-_6507360.jpg
+- street-4.jpg: "Sawston, parked cars and next to no traffic - geograph.org.uk - 4061415.jpg", John Sutton, CC BY-SA 2.0. https://commons.wikimedia.org/wiki/File:Sawston,_parked_cars_and_next_to_no_traffic_-_geograph.org.uk_-_4061415.jpg
+- street-5.jpg: "King Street Lonsdale Street intersection cars stopped 2010-11-22.jpg", Tangerineduel, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:King_Street_Lonsdale_Street_intersection_cars_stopped_2010-11-22.jpg
+- scene-1.jpg: "Kelvedon Hall lawn shrubs and trees Kelvedon Hatch Essex England 01.jpg", Acabashi, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Kelvedon_Hall_lawn_shrubs_and_trees_Kelvedon_Hatch_Essex_England_01.jpg
+- scene-2.jpg: "Kelvedon Hall lawn shrubs and trees Kelvedon Hatch Essex England 03.jpg", Acabashi, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Kelvedon_Hall_lawn_shrubs_and_trees_Kelvedon_Hatch_Essex_England_03.jpg
+- scene-3.jpg: "Elevated wooden path in Hatfield Forest Essex England.jpg", Acabashi, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Elevated_wooden_path_in_Hatfield_Forest_Essex_England.jpg
+- scene-4.jpg: "Dülmen, Wildpark -- 2019 -- 3216-22.jpg", Dietmar Rabich, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2019_--_3216-22.jpg
+- scene-5.jpg: "'Main Path' looking north at High Beach, Epping Forest, Essex England.jpg", Acabashi, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:%27Main_Path%27_looking_north_at_High_Beach,_Epping_Forest,_Essex_England.jpg
+- scene-6.jpg: "Dülmen, Wildpark -- 2018 -- 1458-62.jpg", Dietmar Rabich, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wildpark_--_2018_--_1458-62.jpg

@@ -1,0 +1,60 @@
+{
+  "set": "heldout",
+  "model": "Xenova/clip-vit-base-patch32",
+  "version": "d15189d7-q8",
+  "params": {
+    "minScore": 0.45,
+    "minMargin": 0.15,
+    "mismatchScore": 0.5
+  },
+  "photos": 32,
+  "summary": {
+    "Sharp photos (correct + unrelated)": {
+      "positives": 22,
+      "TP": 21,
+      "uncertainPos": 1,
+      "FN": 0,
+      "negatives": 167,
+      "FP": 0,
+      "uncertainNeg": 3,
+      "TN": 164
+    },
+    "Correct photos only": {
+      "positives": 22,
+      "TP": 21,
+      "uncertainPos": 1,
+      "FN": 0,
+      "negatives": 132,
+      "FP": 0,
+      "uncertainNeg": 3,
+      "TN": 129
+    },
+    "Unrelated indoor/street photos": {
+      "positives": 0,
+      "TP": 0,
+      "uncertainPos": 0,
+      "FN": 0,
+      "negatives": 35,
+      "FP": 0,
+      "uncertainNeg": 0,
+      "TN": 35
+    },
+    "Blurred copies of correct photos": {
+      "positives": 22,
+      "TP": 12,
+      "uncertainPos": 9,
+      "FN": 1,
+      "negatives": 132,
+      "FP": 1,
+      "uncertainNeg": 48,
+      "TN": 83
+    }
+  },
+  "falsePositives": [
+    "rock-2.jpg (blurred) vs grass: target 67%, top \"a close-up photo of green grass\" 67%"
+  ],
+  "falseNegatives": [],
+  "uncertainCorrect": [
+    "grass-1.jpg vs grass: target 51%, top \"a close-up photo of green grass\" 51%"
+  ]
+}

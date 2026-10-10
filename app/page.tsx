@@ -1,69 +1,81 @@
-import Image from "next/image";
+"use client";
+import Link from "next/link";
+import { useLiveQuery } from "dexie-react-hooks";
+import { Camera, Lock, Sprout, WifiOff } from "lucide-react";
+import { db, updateSettings } from "@/lib/db";
+import { useActiveAdventure } from "@/lib/hooks";
+import { isResolved } from "@/lib/session";
+import { btnLime, btnPrimary, Card, Eyebrow } from "@/components/ui";
+
+const STEPS = [
+  { Icon: Sprout, title: "Pick an adventure", body: "Three, five or seven small finds, from a leaf to the sky." },
+  { Icon: Camera, title: "Find it, snap it", body: "Look around. Photograph what you discover." },
+  { Icon: Lock, title: "AI checks on-device", body: "An open-weight model runs on your phone. Nothing is uploaded." },
+];
 
 export default function Home() {
+  const active = useActiveAdventure();
+  const items = useLiveQuery(async () => (active?.id ? db.sessionMissions.where("adventureId").equals(active.id).toArray() : []), [active?.id]);
+  const resolved = items?.filter((i) => isResolved(i.status)).length ?? 0;
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main id="main" className="flex flex-1 flex-col gap-6">
+      <header className="rise pt-2">
+        <div className="mb-6 flex items-center gap-2 text-forest">
+          <Sprout size={26} aria-hidden />
+          <span className="text-xl font-bold tracking-tight">WildQuest AI</span>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+        <h1 className="text-[2.7rem] font-extrabold leading-[1.02] tracking-tight md:text-6xl">
+          Explore more. <span className="text-forest">Scroll less.</span>
+        </h1>
+        <p className="mt-3 text-xl text-muted">Your next adventure is outside.</p>
+        <p className="mt-2 max-w-prose text-muted">
+          Short nature missions for a walk. Photograph what you find and open-source AI on your phone checks it. Your photos stay on this device.
+        </p>
+      </header>
+
+      {active && items && (
+        <Card className="rise !border-forest/30 !bg-lime/40" style={{ animationDelay: "60ms" }}>
+          <Eyebrow>Adventure in progress</Eyebrow>
+          <p className="mt-1 text-lg font-bold">{resolved} of {items.length} missions done</p>
+          <Link href={`/adventure/${active.id}/`} prefetch={false} className={`${btnPrimary} mt-3`}>Continue adventure</Link>
+        </Card>
+      )}
+
+      <div className="rise" style={{ animationDelay: "100ms" }}>
+        <Link href="/explore/" prefetch={false} onClick={() => void updateSettings({ onboardingCompleted: true }).catch(() => {})} className={active ? "hidden" : btnLime} data-testid="start-exploring">
+          Start exploring
+        </Link>
+        {active && (
+          <Link href="/explore/" prefetch={false} className="inline-flex min-h-11 items-center font-semibold text-forest underline underline-offset-4">Start a different adventure</Link>
+        )}
+      </div>
+
+      <section aria-labelledby="how" className="rise" style={{ animationDelay: "140ms" }}>
+        <h2 id="how" className="text-lg font-bold">How it works</h2>
+        <ol className="mt-3 grid gap-3 md:grid-cols-3">
+          {STEPS.map(({ Icon, title, body }, i) => (
+            <li key={title}>
+              <Card as="div" className="h-full">
+                <div className="flex items-center gap-3">
+                  <span className="grid h-10 w-10 place-items-center rounded-xl bg-lime/60 text-forest"><Icon size={20} aria-hidden /></span>
+                  <span className="text-sm font-bold text-forest">Step {i + 1}</span>
+                </div>
+                <p className="mt-2 font-bold">{title}</p>
+                <p className="text-sm text-muted">{body}</p>
+              </Card>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <Card className="rise flex gap-3" style={{ animationDelay: "180ms" }}>
+        <WifiOff size={22} className="mt-0.5 shrink-0 text-forest" aria-hidden />
+        <p className="text-sm text-muted">
+          The AI model (about 90 MB) downloads once. After that, WildQuest can work offline. We’ll tell you honestly in <Link href="/settings/" prefetch={false} className="font-semibold text-forest underline">Settings</Link> when that’s verified.{" "}
+          <Link href="/about/" prefetch={false} className="font-semibold text-forest underline">How it works</Link> · <Link href="/privacy/" prefetch={false} className="font-semibold text-forest underline">Privacy</Link>
+        </p>
+      </Card>
+    </main>
   );
 }

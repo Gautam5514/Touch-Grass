@@ -1,0 +1,322 @@
+[
+  {
+    "file": "green-leaf-1.jpg",
+    "kind": "correct",
+    "truth": [
+      "green-leaf"
+    ],
+    "source": "File:Raindrops on a green leaf closeup. (49938738006).jpg"
+  },
+  {
+    "file": "green-leaf-2.jpg",
+    "kind": "correct",
+    "truth": [
+      "green-leaf"
+    ],
+    "source": "File:Holly leaf closeup.jpg"
+  },
+  {
+    "file": "green-leaf-3.jpg",
+    "kind": "correct",
+    "truth": [
+      "green-leaf"
+    ],
+    "source": "File:Man holding a green walnut leaf closeup. (51271475636).jpg"
+  },
+  {
+    "file": "green-leaf-4.jpg",
+    "kind": "correct",
+    "truth": [
+      "green-leaf"
+    ],
+    "source": "File:Macro photography of a leaf - by Giovanni Ussi.jpg"
+  },
+  {
+    "file": "flower-1.jpg",
+    "kind": "correct",
+    "truth": [
+      "flower"
+    ],
+    "source": "File:Red Poppy Papaver Flower Closeup 2049px.jpg"
+  },
+  {
+    "file": "flower-2.jpg",
+    "kind": "correct",
+    "truth": [
+      "flower"
+    ],
+    "source": "File:Closeup of purple cone flower bloom.jpg"
+  },
+  {
+    "file": "flower-3.jpg",
+    "kind": "correct",
+    "truth": [
+      "flower"
+    ],
+    "source": "File:Blossom Blue (143871281).jpeg"
+  },
+  {
+    "file": "flower-4.jpg",
+    "kind": "correct",
+    "truth": [
+      "flower"
+    ],
+    "source": "File:(Passiflora 'Lady Margaret') cultivator Rakhi flower closeup at Nizampet 01.jpg"
+  },
+  {
+    "file": "tree-trunk-1.jpg",
+    "kind": "correct",
+    "truth": [
+      "tree-trunk"
+    ],
+    "source": "File:Mossy Tree Bark Texture DTXR-WD-BK-1.jpg"
+  },
+  {
+    "file": "tree-trunk-2.jpg",
+    "kind": "correct",
+    "truth": [
+      "tree-trunk"
+    ],
+    "source": "File:Bark of Sapota tree.jpg"
+  },
+  {
+    "file": "tree-trunk-3.jpg",
+    "kind": "correct",
+    "truth": [
+      "tree-trunk"
+    ],
+    "source": "File:Pine tree bark texture.jpg"
+  },
+  {
+    "file": "tree-trunk-4.jpg",
+    "kind": "correct",
+    "truth": [
+      "tree-trunk"
+    ],
+    "source": "File:Bark texture wood.jpg"
+  },
+  {
+    "file": "sky-1.jpg",
+    "kind": "correct",
+    "truth": [
+      "sky"
+    ],
+    "source": "File:Cloudy sky over the field in Russia. img 030.jpg"
+  },
+  {
+    "file": "sky-2.jpg",
+    "kind": "correct",
+    "truth": [
+      "sky"
+    ],
+    "source": "File:Cloudy sky over the field in Russia. img 007.jpg"
+  },
+  {
+    "file": "sky-3.jpg",
+    "kind": "correct",
+    "truth": [
+      "sky"
+    ],
+    "source": "File:Cloudy sky over the field in Russia. img 016.jpg"
+  },
+  {
+    "file": "sky-4.jpg",
+    "kind": "correct",
+    "truth": [
+      "sky"
+    ],
+    "source": "File:Cloudy sky over the field in Russia. img 021.jpg"
+  },
+  {
+    "file": "grass-1.jpg",
+    "kind": "correct",
+    "truth": [
+      "grass"
+    ],
+    "source": "File:Mowed fresh green seamless healthy lawn grass turf texture.jpg"
+  },
+  {
+    "file": "grass-2.jpg",
+    "kind": "correct",
+    "truth": [
+      "grass"
+    ],
+    "source": "File:Lawn grass.jpg"
+  },
+  {
+    "file": "grass-3.jpg",
+    "kind": "correct",
+    "truth": [
+      "grass"
+    ],
+    "source": "File:HK 香港 中山紀念公園 Sun Yat Sen Memorial Park 草皮 08 Lawn grass May-2012.jpg"
+  },
+  {
+    "file": "grass-4.jpg",
+    "kind": "correct",
+    "truth": [
+      "grass"
+    ],
+    "source": "File:HK 香港 中山紀念公園 Sun Yat Sen Memorial Park 草皮 03 Lawn grass May-2012.jpg"
+  },
+  {
+    "file": "rock-1.jpg",
+    "kind": "correct",
+    "truth": [
+      "rock"
+    ],
+    "source": "File:Stone rock closeup.jpg"
+  },
+  {
+    "file": "rock-2.jpg",
+    "kind": "correct",
+    "truth": [
+      "rock"
+    ],
+    "source": "File:Stone rock texture closeup.jpg"
+  },
+  {
+    "file": "rock-3.jpg",
+    "kind": "correct",
+    "truth": [
+      "rock"
+    ],
+    "source": "File:Stone closeup.jpg"
+  },
+  {
+    "file": "rock-4.jpg",
+    "kind": "correct",
+    "truth": [
+      "rock"
+    ],
+    "source": "File:Nether Largie Standing Stones 04.jpg"
+  },
+  {
+    "file": "fallen-leaf-1.jpg",
+    "kind": "correct",
+    "truth": [
+      "fallen-leaf"
+    ],
+    "source": "File:Red maple leaf on paper birch.jpg"
+  },
+  {
+    "file": "fallen-leaf-2.jpg",
+    "kind": "correct",
+    "truth": [
+      "fallen-leaf"
+    ],
+    "source": "File:Autumn leaf 25.jpg"
+  },
+  {
+    "file": "fallen-leaf-3.jpg",
+    "kind": "correct",
+    "truth": [
+      "fallen-leaf"
+    ],
+    "source": "File:Leaf on the ground.jpg"
+  },
+  {
+    "file": "fallen-leaf-4.jpg",
+    "kind": "correct",
+    "truth": [
+      "fallen-leaf"
+    ],
+    "source": "File:Small leaves on ground.jpg"
+  },
+  {
+    "file": "indoor-1.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Living room in apartment of Condomínio do Edifício Zaher, Le Blond, Rio de Janeiro, Brazil.jpg"
+  },
+  {
+    "file": "indoor-2.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Living Room 1998 NOLA.jpg"
+  },
+  {
+    "file": "indoor-3.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Living room in Villa Cavrois en2023 (3).jpg"
+  },
+  {
+    "file": "indoor-4.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Living Room Sauer Beckmann Farm Texas 2023.jpg"
+  },
+  {
+    "file": "indoor-5.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Nathan Cobb Cottage - Interior 2nd Floor Loft Looking Down to Living Room - photograph ca. 2021.jpg"
+  },
+  {
+    "file": "street-1.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Car park and Traffic Street - geograph.org.uk - 8119229.jpg"
+  },
+  {
+    "file": "street-2.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:2005 car traffic in Taipei 2.jpg"
+  },
+  {
+    "file": "street-3.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Cars waiting at the traffic lights on James Street, Omagh - geograph.org.uk - 6507360.jpg"
+  },
+  {
+    "file": "street-4.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:Sawston, parked cars and next to no traffic - geograph.org.uk - 4061415.jpg"
+  },
+  {
+    "file": "street-5.jpg",
+    "kind": "unrelated",
+    "truth": [],
+    "source": "File:King Street Lonsdale Street intersection cars stopped 2010-11-22.jpg"
+  },
+  {
+    "file": "scene-1.jpg",
+    "kind": "multi",
+    "truth": [],
+    "source": "File:Kelvedon Hall lawn shrubs and trees Kelvedon Hatch Essex England 01.jpg"
+  },
+  {
+    "file": "scene-2.jpg",
+    "kind": "multi",
+    "truth": [],
+    "source": "File:Kelvedon Hall lawn shrubs and trees Kelvedon Hatch Essex England 03.jpg"
+  },
+  {
+    "file": "scene-3.jpg",
+    "kind": "multi",
+    "truth": [],
+    "source": "File:Elevated wooden path in Hatfield Forest Essex England.jpg"
+  },
+  {
+    "file": "scene-4.jpg",
+    "kind": "multi",
+    "truth": [],
+    "source": "File:Dülmen, Wildpark -- 2019 -- 3216-22.jpg"
+  },
+  {
+    "file": "scene-5.jpg",
+    "kind": "multi",
+    "truth": [],
+    "source": "File:'Main Path' looking north at High Beach, Epping Forest, Essex England.jpg"
+  },
+  {
+    "file": "scene-6.jpg",
+    "kind": "multi",
+    "truth": [],
+    "source": "File:Dülmen, Wildpark -- 2018 -- 1458-62.jpg"
+  }
+]
